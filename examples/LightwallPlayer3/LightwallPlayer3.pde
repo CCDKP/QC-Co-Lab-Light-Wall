@@ -1,7 +1,7 @@
 /*
   Lightwall Player v3.0
   This code controls a series of GE Color-effects lights.
-  It uses Analog pins 0-3 and Digital pins 4-7 for output.
+  It uses Digital pins 0-7 for output.
   It also makes use of the SD Card shield v2.1 from SeeedStudios (http://www.seeedstudio.com/depot/sd-card-shield-for-arduino-v21-p-492.html)
 
   Written by Chris Cooper (CCooper@QCCoLab.com, @CC_DKP)

@@ -4,7 +4,7 @@
 /*
   Lightwall Library
   This code controls a series of GE Color-effects lights.
-  It uses Analog pins 0-3 and Digital pins 4-7 for output.
+  It uses Digital pins 0-7 for output.
 
   Written by Chris Cooper (CCooper@QCCoLab.com, @CC_DKP)
   Derived from the reference implementation by Mark Kruse
