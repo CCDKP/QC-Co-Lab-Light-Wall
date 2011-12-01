@@ -70,8 +70,12 @@ class LightWall {
   // to reprogram the arduino.
   LightWall(void);
   ~LightWall(void);
+  
+  
+  // Each string can have a maximum of 63 bulbs. One string may span multiple rows.
+  // lightsPerRow sets the logical breaking point. See address_lights() for more information.
   void begin(uint8_t lightsPerString, uint8_t lightsPerRow);
-
+  
   void fadeout(uint16_t time);// fade to black over time (in ms) (leaves intesity at 0)
   void fadein(uint16_t time);// fade in to default intensitiy over time (in ms)
   void fadein(uint16_t time, uint8_t intensity);// fade in to newIntensity over time (in ms)
