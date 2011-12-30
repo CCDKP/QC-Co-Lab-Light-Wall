@@ -31,7 +31,12 @@
 = Installation =
 * Copy this entire directory to arduino/libraries/LightWall/ 
 * Install the Fat16 library from http://musicshield.googlecode.com/files/Fat16.zip
+    * (Required for example player, not for the core library)
 * Done!
+
+= Notes = 
+This code has been tested with Arduino 0.22. As of the time of this writing, 
+the Fat16 library from MusicShield is not compatible with Arduino 1.0
 
 = Additional Resources = 
 

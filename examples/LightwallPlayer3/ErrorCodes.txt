@@ -1,0 +1,16 @@
+The LightWallPlayer supports up to 255 unique errors.
+The following list is the currently supported Error Codes.
+
+Error
+Code	Description
+4		Unexpected End Of File (EOF)
+5		Unspecified Read Error
+
+
+8		Error Initializing SD Card
+9		Error Initializing Fat16
+10		Error Opening File
+11		Unsupported Protocol
+12		Unsupported Message Type
+13		Mismatched String Size
+14		Mismatched Row Size
